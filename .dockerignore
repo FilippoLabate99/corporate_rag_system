@@ -1,0 +1,20 @@
+# Sicurezza
+.env
+
+# Ambienti virtuali
+venv/
+env/
+
+# Cache e file temporanei di Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Evita di copiare i database vettoriali giganteschi
+chroma_db/
+db_*/
+
+# Evita di copiare la cronologia di Git
+.git/
+.gitignore

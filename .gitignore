@@ -1,0 +1,14 @@
+# Ignora le chiavi segrete
+.env
+
+# Ignora l'ambiente virtuale
+venv/
+
+# Ignora i file temporanei del Mac e di Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Ignora il database locale vettoriale (per evitare di caricare giga di dati)
+chroma_db/
+db_*/
